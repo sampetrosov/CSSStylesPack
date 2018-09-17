@@ -9,13 +9,21 @@ body{
     height: 3em;
     font-size: 2em;
 }
+
 .sp_nav_black{
     background: black;
     color: white;
 }
-
+.sp_nav_black a{
+    text-decoration: none;
+    color: white;
+}
 .sp_nav_white{
     background: white;
+    color: black;
+}
+.sp_nav_white a{
+    text-decoration: none;
     color: black;
 }
 
@@ -24,29 +32,40 @@ body{
     margin-top: 1em;
     margin-bottom: 1em;
 }
-
-.sp_nav_vertical ul li{
-    display: inline;
-    margin-right: 8pt;
+.sp_nav_vertical li{
+    margin-right: 20pt;
+    float:right;
 }
 
-.sp_nav_vertical ol li{
-    display: inline;
-    margin-right: 8pt;
+li.sp_brand{
+    float:left;
 }
 
 #sp_main_container{
-
+    margin-top: 6em;
 }
 
 #sp_header{
-
+    height: 4em;
+    width: 100%;
+    border-bottom: 1px solid black; 
 }
 
 #sp_body{
-
+    
 }
 
 #sp_footer{
-
+    position: fixed;
+    bottom: 0px;
+    border-top : 1px solid black;
+    background-color: #607D8B;
+    height: 3em;
+    width: 100%;
+}
+.copyright{
+    float: right;
+    margin-top: 15pt;
+    margin-right: 20pt;
+    text-align: rigth;
 }
