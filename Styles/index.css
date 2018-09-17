@@ -1,5 +1,18 @@
 #sp_navigation{
-    
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100pt;
+}
+
+.sp_nav_black{
+    background: black;
+    color: white;
+}
+
+.sp_nav_white{
+    background: white;
+    color: black;
 }
 
 #sp_main_container{
