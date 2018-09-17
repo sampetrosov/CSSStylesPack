@@ -1,10 +1,14 @@
-#sp_navigation{
+body{
+    margin: 0px;
+}
+
+.sp_navigation{
     position: fixed;
     top: 0px;
     width: 100%;
-    height: 100pt;
+    height: 3em;
+    font-size: 2em;
 }
-
 .sp_nav_black{
     background: black;
     color: white;
@@ -13,6 +17,22 @@
 .sp_nav_white{
     background: white;
     color: black;
+}
+
+.sp_nav_vertical ul,ol{
+    list-style: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.sp_nav_vertical ul li{
+    display: inline;
+    margin-right: 8pt;
+}
+
+.sp_nav_vertical ol li{
+    display: inline;
+    margin-right: 8pt;
 }
 
 #sp_main_container{
